@@ -1,0 +1,249 @@
+/* CSS FILE */
+
+/* BOŞLUKLARI SIFIRLA */
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: url(Images/sile-lighthousejpg.jpg);
+    background-size: 2098px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgba(127, 191, 247, 0.918);
+
+}
+
+#page {
+    width: 1098px;
+    min-height: 1000px;
+    margin: auto;
+}
+
+/* -------- BANNER -------- */
+
+#banner {
+    width: 1098px;
+    min-height: 100px;
+    margin: auto;
+    background-color: rgba(14, 124, 197, 0.685)
+}
+
+#logo {
+    height: 100px;
+    width: 100px;
+    position: relative;
+    top: 10px;
+    left: 15px;
+    float: left;
+}
+
+#imgLogo {
+    height: 80px;
+    width: 80px;
+    border-radius: 40px;
+    box-shadow: 1px 2px 7px 1px black;
+}
+
+#headtitle{
+    width: 275px;
+    height: 50px;
+    float: left;
+    margin-top: 25px;
+    margin-left: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+#headtitle a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.897);
+}
+
+#social {
+    height: 40px;
+    width: 170px;
+    float: right;
+    position: relative;
+    top: 30px;
+    right: 15px;
+    justify-content: center;
+}
+
+#socialico {
+    height: 40px;
+    width: 40px;
+    border-radius: 18px;
+    float: right;
+    margin-left: 7px;
+}
+
+/* -------- NAVBAR -------- */
+
+#mainmenu {
+    /* border-style: solid; */
+    margin: auto;
+    width: 1098px;
+    min-height: 40px;
+    float: left;
+}
+
+#mainmenu ul {
+    list-style-type: none;
+}
+
+#mainmenu ul li {
+    float: left;
+    text-align: center;
+    background-color: rgba(25, 96, 138, 0.808);
+    min-height: 40px;
+    padding-top: 5px;
+}
+
+#mainmenu ul li a{
+    color: white;
+    text-decoration: none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-variant: small-caps;
+    font-size: 23px;
+}
+
+#searchbox{
+    margin: auto;
+    float: right;
+}
+#searchbox input{
+    border-style: none;
+    background-color: rgba(34, 75, 102, 0.788);
+    min-height: 45px;
+    width: 300px;
+    font-size: 23px;
+    color: rgba(205, 223, 241, 0.836);
+    font-variant: small-caps;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-indent: 10px;
+    outline-style: none;
+}
+
+#mainmenu ul li:hover{
+    background-color: rgb(8, 54, 85);
+}
+
+/* -------- ARTICLE -------- */
+
+#content{
+    float: left;
+    width: 798px;
+    min-height: 1024px;
+    background-color: rgba(60, 125, 163, 0.692);
+}
+
+#article-contenier {
+    width: 798px;
+    min-height: 1024px;
+}
+
+.article-box {
+    float: left;
+    width: 190px;
+    min-height: 195px;
+    margin: 20px 20px 30px 40px;
+}
+
+.box-image {
+    width: 190px;
+    min-height: 195px;
+    position: absolute;
+}
+
+/* -------- RIGHT MENU -------- */
+
+#rightmenu {
+    float: right;
+    width: 300px;
+    min-height: 1024px;
+    background-color: rgba(33, 93, 128, 0.692);
+}
+
+.gmap_canvas {
+    overflow:hidden;
+    background:none;
+    height:450px;
+    width:290px;
+    padding: 5px;
+}
+
+/* -------- FOOTTER -------- */
+
+#footer {
+    width: 1098px;
+    min-height: 229px;
+    background-color: rgba(16, 51, 75, 0.938);
+    position: relative;
+    float: left;
+    text-align: center;
+}
+
+#menu-list {
+    float: left;
+    width: 35%;
+}
+
+#footer-social {
+    float: left;
+    width: 15%;
+    height: 160px;
+}
+
+#location {
+    float: right;
+    width: 50%;
+    height: 160px;
+}
+
+
+#footer-social-ico{
+    margin-top: 60px;
+    width: 20%;
+    padding: 5%;
+}
+
+
+#menu-list-items {
+    height: 160px;
+    list-style: none;
+    margin-top: 21px;
+}
+
+.footer-item{
+    color: white;
+    text-decoration: none;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-variant: small-caps;
+    font-size: 19px;
+    padding-inline: 1px;
+}
+
+#location p {
+    color: white;
+    text-align: center;
+    padding: 10%;
+}
+
+#creator{
+    color: white;
+    width: 1098px;
+    pointer-events: fill;
+    height: 10px;
+    float: left;
+    margin-bottom: 20px;
+}
+
+#creator p {
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;    
+    text-align: center;
+    width: 1098px;
+    font-size: 13px;
+}
